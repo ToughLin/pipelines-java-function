@@ -8,7 +8,7 @@ variables:
   appName: devops-java-poc-tough
   # the name of your functionApp is what you provided as
   # stagingDirectory in pom.xml
-  functionAppName: 'devops-java-poc-tough'
+  functionAppName: devops-java-poc-tough
 # ...
 
 # Maven
