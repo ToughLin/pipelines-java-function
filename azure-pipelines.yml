@@ -53,6 +53,6 @@ steps:
   displayName: Azure Function App deploy
   inputs:
     azureSubscription: $(serviceConnectionToAzure)
-    appType: functionApp
+    appType: functionAppLinux
     appName: $(appName)
-    package: $(build.artifactstagingdirectory)/
+    package: $(build.artifactstagingdirectory)/$(appName)
