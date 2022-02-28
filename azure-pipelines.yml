@@ -55,4 +55,4 @@ steps:
     azureSubscription: $(serviceConnectionToAzure)
     appType: functionApp
     appName: $(appName)
-    package: $(build.artifactstagingdirectory)/$(appName)    
+    package: $(build.artifactstagingdirectory)/
